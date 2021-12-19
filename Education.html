@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #070707;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:17px;
+  width:10%; /* 10 links of equal widths */
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+body {
+  background-image: url("image/background.jpg");
+}
+table
+{
+text align: center ; color:Black 
+}
+
+table
+{
+background-color:PaleVioletRed
+}
+.row {
+  display: flex;
+}
+img {
+  border-radius: 8px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<img src="image/header.png">
+     <hr color="Navy">
+     <hr> <marquee><h1 style="color:#000080;font-family:FZShuTi">My Education Journey🎓</marquee>
+     <hr color="Navy">
+<div class="topnav">
+
+<td><a href="index.html">Home</a><td>
+<td><a href="aboutme.html">About me</a><td>
+<td><a href="family.html">Family</a><td>
+<td><a href="hobby.html">Hobby</a><td>
+<td><a href="interest.html">Interest</a><td
+<td><a href="education.html">Education</a><td>
+<td><a href="friends.html">Friends</a><td>
+<td><a href="experience.html">Experience</a><td>
+<td><a href="gallery.html">Gallery</a><td>
+<td><a href="Contactme.html">Contact Me</a><td>
+</div>
+<br>
+<br>
+<font face="FZShuTi"><h1 align="center">My Education Journey🎓</h1></font>
+<hr color="black">
+<table>
+<table border="3" align="center" valign="middle" cellpadding="3" cellspacing="3">
+<tr align="center">
+
+	<tr>
+		<th bgcolor="#C39BD3">Bil</th>
+		<th bgcolor="#C39BD3">Institution</th>
+		<th bgcolor="#C39BD3">Certificate</th>
+		<th bgcolor="#C39BD3">Year Enrolled</th>
+		<th bgcolor="#C39BD3">Year Graduated</th>
+	</tr>
+	<tr>
+		<td bgcolor="#F8B195">1</td>
+		<td bgcolor="#F8B195">Taski Abim</td>
+		<td bgcolor="#F8B195">Sijil Prasekolah</td>
+		<td bgcolor="#F8B195">2006</td>
+		<td bgcolor="#F8B195">2006</td>
+
+	</tr>
+	<tr>
+	        <td bgcolor="#F8B195">2</td>
+		<td bgcolor="#F8B195">Sekolah Kebangsaan Bandar Baru Sungai Lalang</td>
+		<td bgcolor="#F8B195">-</td>
+		<td bgcolor="#F8B195">2007</td>
+		<td bgcolor="#F8B195">2010</td>
+	</tr>
+	<tr>
+		<td bgcolor="#F8B195">3</td>
+		<td bgcolor="#F8B195">Sekolah Kebangsaan Darul Hikmah</td>
+		<td bgcolor="#F8B195">Ujian Pentaksiran Sekolah Rendah</td>
+		<td bgcolor="#F8B195">2010</td>
+		<td bgcolor="#F8B195">2012</td>
+	</tr>
+	<tr>
+		<td bgcolor="#F8B195">4</td>
+		<td bgcolor="#F8B195">Sekolah Menengah Kebangsaan Tun Sharifah Rodziah</td>
+		<td bgcolor="#F8B195">Sijil Pelajaran Malaysia</td>
+		<td bgcolor="#F8B195">2013</td>
+		<td bgcolor="#F8B195">2017</td>
+	</tr>
+	<tr>
+		<td bgcolor="#F8B195">5</td>
+		<td bgcolor="#F8B195">Sekolah Menengah Kebangsaan Sultan Abdul Aziz Shah</td>
+		<td bgcolor="#F8B195">Sijil Tinggi Persekolahan Malaysia</td>
+		<td bgcolor="#F8B195">2018</td>
+		<td bgcolor="#F8B195">2019</td>
+	</tr>
+	<tr>
+		<td bgcolor="#F8B195">6</td>
+		<td bgcolor="#F8B195">UiTM Cawangan Kedah</td>
+		<td bgcolor="#F8B195">Ijazah Sarjana Muda</td>
+		<td bgcolor="#F8B195">2020</td>
+		<td bgcolor="#F8B195">2024</td>
+	</tr>
+	<tr>
+</table>
+<br>
+<br>
+<h3 style="color:black;font-family:verdana"><p>🔹I started school at Taski Abim Taman Seri Bayu, Sungai Petani, Kedah at the age of 6. I have many memories with my friends and also got the basic education while studying here.</p></h3>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="image/taski1.jpeg" alt="Taski" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/taski.jpeg" alt="Taski" style="width:100%" border="5">
+  </div>
+</div>
+
+<br>
+<h3 style="color:black;font-family:verdana"><p>🔹Next, I continued my studies at the primary school, Sekolah Kebangsaan Bandar Baru, Sungai Lalang. I went to school there for only 3 years which is from grade 1 to grade 3. After that, I moved to my hometown which is Kampung Jelai, Alor Setar, Kedah during the middle of 3rd grade, due to family problems.</p></h3>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="image/skbbsl2.png" alt="skbbskl" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/skbbsl1.jpg" alt="skbbsl" style="width:100%" border="5">
+  </div>
+</div>
+<h3 style="color:black;font-family:verdana"><p>🔹 After I moved to my hometown I studied at Sekolah Kebangsaan Darul Hikmah. This school is located near to my house. I studied in this school from grade 3 to grade 6. In addition, I also took the subject of Al-Quran & Fardu Ain (KAFA) Class. My previous school did not have this subject. It makes me excited to learn about it.</p>
+<br>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="image/skdh.jpg" alt="skdh" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/skdh.jpg" alt="skdh" style="width:100%" border="5">
+  </div>
+</div>
+<h3 style="color:black;font-family:verdana"><p>🔹 Furthermore, I continued my studies at Sekolah Menengah Kebangsaan Tun Sharifah Rodziah. I had to stay away from my family because I lived in a dormitory from form 1 to form 5. while studying here, I received many lessons about a life full of thorns. Such as, to be a strong person and is better than before.  I have lined up to hold a Malaysia Certificate of Education (SPM).</p></h3>
+<br>
+<div class="row">
+  <div class="column">
+    <img src="image/smktsr1.jpg" alt="Smktsr" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/smktsr2.jpg" alt="smktsr" style="width:100%" border="5">
+  </div>
+</div>
+<h3 style="color:black;font-family:verdana"><p>🔹After I finished high school,
+I applied to enter the university. However, destiny was not on my side because I could not get an offer to enter the university. I continued my studies in Form 6 at SMK Tun Sharifah Rodziah (SMKTSR). There is a funny thing that makes me smile when reminded about it which is among all my classmates, I am the only one who continued STPM at the SMKTSR, the others continued STPM at SMK Agama Kedah because one of my subjects was not satisfactory. Furthermore, because of the school did not provide hostels for Form 6 students, I had to move to Sekolah Menengah Kebangsaan Sultan Abdul Aziz Shah, Kajang, and live with my aunt. I went to school there from 2018-2019.</p></h3>
+​<br>
+<div class="row">
+  <div class="column">
+    <img src="image/smksaas1.jpg" alt="smksaas" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/smksaas2.jpg" alt="smksaas" style="width:100%" border="5">
+  </div>
+</div>
+<h3 style="color:black;font-family:verdana"><p>🔹Currently, I continue my studies at the university level in the field of library management at UiTM Kedah, Kampus Sungai Petani in Bachelor of Information Science (Hons.), Library Management.</p></h3>
+<div class="row">
+  <div class="column">
+    <img src="image/uitm.jpeg" alt="Uitm" style="width:100%" border="5">
+  </div>
+  <div class="column">
+    <img src="image/uitm1.jpg" alt="Uitm" style="width:100%" border="5">
+  </div>
+</div>
+<br>
+<br>
+<a href="#top"><img src="image/top.png" align="right"</a>
+<br>
+<br>
+<br>
+<hr color="black">
+<div class="footer">
+<footer><center>
+<p> Copyright &copy; Syaffirdaus 2021, IMS456</p></center></footer>
+<hr color="black">
+</div>
+
+
+</body>
+</html>
